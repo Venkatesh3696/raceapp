@@ -1,0 +1,87 @@
+.home-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  background-color: #eeeae7;
+  min-height: 100vh;
+}
+.registration-container {
+  width: 30%;
+  height: 100%;
+  background-color: #dbd5d0;
+  padding: 10px;
+}
+.para-1 {
+  color: #6d6c6b;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.input-label {
+  width: 90%;
+}
+.text-input {
+  color: red;
+  height: 30px;
+  color: #a9a9a9;
+  padding: 5px 20px;
+  border: none;
+  width: 80%;
+}
+.add-button {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  align-self: flex-end;
+  margin-right: 50px;
+}
+.participants-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 70%;
+  background-color: #ffffff;
+  height: 70vh;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.horizantal-line {
+  direction: row;
+}
+.headings-container {
+  display: flex;
+}
+.heading {
+  width: 25%;
+  padding-left: 40px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+
+.start-button {
+  transform: skew(-20deg);
+  background-color: #ea492b;
+  color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 5px;
+}
